@@ -74,7 +74,7 @@ $rssfeed ='<?xml version="1.0" encoding="UTF-8"?>
 		<copyright>Copyright (C) 2016 Andreas Kjellqvist (NaxXx@EC)</copyright>
 		<item>
 			<title>'.$description.'</title>
-			<description>'.$description.'
+			<description>'.$description.'</description>
 			<link>www.emocore.se</link>
 			<pubDate>' . $time . '</pubDate>
 		</item>
