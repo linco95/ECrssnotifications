@@ -51,9 +51,9 @@ function convertDataToRss($data = [])
 	<channel>
 		<title>"ECnotifs"</title>
 		<link>http://www.emocore.se</link>
-		<description>"Notifications for emocore for NaxXx"</description>
+		<description>"Notifications for emocore."</description>
 		<language>sv-se</language>
-		<copyright>Copyright (C) 2016 Andreas Kjellqvist</copyright>
+		<copyright>Copyright (C) 2016 Andreas Kjellqvist (NaxXx@EC)</copyright>
 		<item>
 			<title>"GB: ' . $data['new_gb'] . ', PM: ' . $data['new_pm'] . ', FR: ' . $data['new_friend'] . ', FO: ' . $data['new_watch'] . ', BL: ' . $data['new_blogcomment'] . ', GA: ' . $data['new_gallery'] . ', LI: ' . $data['new_likes'] . ', Updated: ' . $time . '."</title>
 			<description>"GB: ' . $data['new_gb'] . ', PM: ' . $data['new_pm'] . ', FR: ' . $data['new_friend'] . ', FO: ' . $data['new_watch'] . ', BL: ' . $data['new_blogcomment'] . ', GA: ' . $data['new_gallery'] . ', LI: ' . $data['new_likes'] . ', Updated: ' . $time . '."</description>
