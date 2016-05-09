@@ -46,7 +46,7 @@ function convertDataToRss($data = [])
 
 	// Create rss from data
 
-	$rssfeed = '<?xml version="1.0" encoding="ISO-8859-1"?>
+	$rssfeed = '<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
 	<channel>
 		<title>"ECnotifs"</title>
